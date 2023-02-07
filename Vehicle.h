@@ -28,6 +28,8 @@ public:
 	//required methods
 	virtual void checkType() = 0;
 	virtual void display() const;
+
+	~Vehicle();
 };
 char* deepCopy(const char* ptr);
 

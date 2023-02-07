@@ -1,10 +1,9 @@
 #include "Vehicle.h"
 #include "Bike.h"
+#include "Car.h"
+#include "Truck.h"
 int main() {
-	//Bike obj("Honda", "red", 2, 700, 10, true, false);
-	Bike obj2;
-	obj2.setCompanyName("honda");
-	obj2.display();
-
+	Car obj;
+	
 	return 0;
 }

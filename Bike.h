@@ -24,6 +24,11 @@ public:
 	//create setter for static numOfBikes
 	void checkType();
 	void display() const;
+
+	Bike& operator =(const Bike& obj);
+	~Bike();
 };
 
 
+istream& operator >>(istream& input, Bike& obj);
+ostream& operator <<(ostream& output, Bike& obj);

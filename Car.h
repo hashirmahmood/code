@@ -25,5 +25,10 @@ public:
 	void checkType();
 	void display() const;
 
+	Car& operator =(const Car& obj);
+
+	~Car();
 };
+istream& operator >>(istream& input, Car& obj);
+ostream& operator <<(ostream& output, Car& obj);
 

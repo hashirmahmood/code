@@ -55,7 +55,14 @@ void Vehicle::display() const {
 }
 
 
-
+Vehicle::~Vehicle() {
+	delete[] companyName;
+	delete[] color;
+	delete[] typeOfVehicle;
+	companyName = nullptr;
+	color = nullptr;
+	typeOfVehicle = nullptr;
+}
 
 
 
